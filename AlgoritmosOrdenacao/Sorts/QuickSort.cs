@@ -24,11 +24,8 @@
                 if (numbers[j] <= pivot)
                 {
                     i++;
-                    
-                    if(i != j)
-                    {
-                        (numbers[j], numbers[i]) = (numbers[i], numbers[j]);
-                    }
+
+                    (numbers[j], numbers[i]) = (numbers[i], numbers[j]);
                 }
             }
 
